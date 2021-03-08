@@ -7,5 +7,5 @@ const randomizer = (arr) => {
     return arr[Math.floor(Math.random() * arr.length)];
 }
 
-const message = `Hello Stranger! Your sign is ${randomizer(sign)}.`;
+const message = `Hello Stranger! Your sign is ${randomizer(sign)}. Your lucky number is ${randomizer(number)}.`;
 console.log(message);
