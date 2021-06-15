@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+  }
+
+header ul, header li {
+  margin: 0;
+  padding: 0;
+}
+  
+  body {
+    background-color: lightgray;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  li,
+  header,
+  footer {
+    font-family: "Barlow", sans-serif;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 16px;
+  }
+  
+  h3 {
+      font-size: 12px;
+      text-decoration: underline;
+      font-weight: 300;
+  }
+  
+  p, li {
+    font-size: 12px;
+  }
+  
+  header, footer {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  header ul {
+      text-align: center;
+  
+  }
+  
+  header li {
+    display: inline;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #fff;
+    padding: 8px;
+    margin-right: 10px;
+    line-height: 2.5em;
+    box-shadow: 4px 4px 5px darkgray;
+  }
+  
+  .guide {
+    background-color: #fff;
+    border: 2px solid darkgray;
+    padding: 2px 10px 10px 10px;
+    margin: 10px;
+  }
+  
+  .colors {
+    width: 90px;
+    padding: 15px 0px;
+    margin: 5px 5px 5px 0;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .darkblue {
+    background-color: darkblue;
+  }
+  
+  .lightblue {
+    background-color: lightblue;
+  }
+  
+  .violet {
+    background-color: violet;
+  }
+  
+  .darkgreen {
+    background-color: darkgreen;
+  }
+  
+  .aqua {
+    background-color: aqua;
+  }
+  
+  .fonts, .text-styles {
+    margin: 20px 0;
+    padding: 0 10px;
+    border: 2px dotted lightgray;
+    width: 100%;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  @media screen and (min-width: 650px) {
+    .fonts, .text-styles {
+      width: 40%;
+      display: inline-block;
+    }
+  }
+  
+  .barlow h3, .barlow p {
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+  
+  .lora h3, .lora p {
+    font-family: 'Lora', serif;
+  }
+  
+  .josefin h3, .josefin p {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .fonts p.fat {
+    font-weight: bold;
+  }
+  
+  .fonts p.italic {
+    font-style: italic;
+  }
+  
+  .main {
+    font-family: "Barlow Condensed";
+    font-weight: 700;
+    font-size: 26px;
+  }
+  
+  .sub1 {
+    font-family: "Lora";
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  .sub2 {
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+  .paragr {
+    font-family: "Josefin Sans";
+    font-weight: 300;
+    font-size: 12px;
+  }
